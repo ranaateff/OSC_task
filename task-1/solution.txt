@@ -1,0 +1,20 @@
+mkdir task-1
+cd task-1
+touch solution.txt
+mkdir rana
+touch rana/one.txt rana/two.txt rana/three.txt rana/four.txt
+mkdir rana/BAD
+touch ran/BAD/bad.txt
+mv one.txt /home/osc/Downloads/
+cd /home/osc/Downloads
+cp one.txt copy.txt
+cd /home/osc/rana
+nano two.txt
+rana 
+ctrl+o
+enter
+ctrl+x
+echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" >> three.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r rana/BAD
